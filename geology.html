@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv=content-type content="text/html;charset=UTF-8"/>
+<head>
+<title>Celestials:MARS-Geology</title>
+<meta name=viewport content="width=device-width, height=device-height, initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+<link rel=stylesheet type=text/css href=geology.css>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css>
+<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css integrity=sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm crossorigin=anonymous>
+<script src=https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js></script>
+<script src=https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js></script>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css>
+<link rel=stylesheet href=https://use.fontawesome.com/releases/v5.0.7/css/all.css>
+</head>
+<header class=main-header>
+<div class=container>
+<nav class="navbar navbar-expand-lg main-nav px-0">
+<a class=navbar-brand href=/mojo><img src=images/logo.png alt=logo></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#mainMenu aria-controls=mainMenu aria-expanded=false aria-label="Toggle navigation">
+<span class="icon-bar icon-bar-1"></span>
+<span class="icon-bar icon-bar-2"></span>
+<span class="icon-bar icon-bar-3"></span>
+</button>
+<div class="collapse navbar-collapse" id=mainMenu>
+<ul class="navbar-nav ml-auto text-uppercase f1">
+<li>
+<a href="geology.html"class="active active-first">geology</a>
+</li>
+<li>
+<a href=index.html>home</a>
+</li>
+<li>
+<a href=missions.html>missions</a>
+</li>
+<li>
+<a href=facts.html>facts</a>
+</li>
+<li>
+<a href=mars-sky.html>mars in sky</a>
+</li>
+<li>
+<a href=moons.html>moons</a>
+</li>
+<li>
+<a href=#contact></a>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+</header>
+<body>
+<div class=container>
+<div class="pt-5 text-white">
+<div class="py-3 mx-0">
+<h2 style=font-weight:400>SURFACE GEOLOGY</h2><br>
+<p class=lead>Mars is a terrestrial planet that consists of minerals containing silicon and oxygen, metals, and other elements that typically make up rock. The surface of Mars is primarily composed of tholeiitic basalt, although parts are more silica-rich than typical basalt and may be similar to andesitic rocks on Earth or silica glass. Regions of low albedo suggest concentrations of plagioclase feldspar, with northern low albedo regions displaying higher than normal concentrations of sheet silicates and high-silicon glass. Parts of the southern highlands include detectable amounts of high-calcium pyroxenes. Localized concentrations of hematite and olivine have been found. Much of the surface is deeply covered by finely grained iron(III) oxide dust.</p>
+<p class=lead>â€‹Although Mars has no evidence of a structured global magnetic field, observations show that parts of the planet's crust have been magnetized, suggesting that alternating polarity reversals of its dipole field have occurred in the past. </p>
+</div>
+<div class=row>
+<div class=col-md-6>
+<p class=lead>It is thought that, during the Solar System's formation, Mars was created as the result of a stochastic process of run-away accretion of material from the protoplanetary disk that orbited the Sun. Mars has many distinctive chemical features caused by its position in the Solar System.</p>
+<p class=lead>Elements with comparatively low boiling points, such as chlorine, phosphorus, and sulphur, are much more common on Mars than Earth; these elements were probably pushed outward by the young Sun's energetic solar wind.</p>
+</div>
+<div class=col-md-6>
+<div class="ml-0 text-center"><img class="img-intro"src=images/mars_topology.jpg></div>
+</div>
+</div>
+</div>
+</div>
+<script>!function(e){"undefined"==typeof module?this.charming=e:module.exports=e}(function(e,n){"use strict";n=n||{};var t=n.tagName||"span",o=null!=n.classPrefix?n.classPrefix:"char",r=1,a=function(e){for(var n=e.parentNode,a=e.nodeValue,c=a.length,l=-1;++l<c;){var d=document.createElement(t);o&&(d.className=o+r,r++),d.appendChild(document.createTextNode(a[l])),n.insertBefore(d,e)}n.removeChild(e)};return function c(e){for(var n=[].slice.call(e.childNodes),t=n.length,o=-1;++o<t;)c(n[o]);e.nodeType===Node.TEXT_NODE&&a(e)}(e),e});</script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js></script>
+<section class="section-slider mt-5">
+<div class="swiper-container slideshow">
+<div class=swiper-wrapper>
+<div class="swiper-slide slide">
+<div class=slide-image style=background-image:url(images/mars_slider1.jpg)></div>
+<span class=slide-title>Deserts</span>
+</div>
+<div class="swiper-slide slide">
+<div class=slide-image style=background-image:url(images/mars_slider2.jpg)></div>
+<span class=slide-title>Craters</span>
+</div>
+<div class="swiper-slide slide">
+<div class=slide-image style=background-image:url(images/mars_slider3.jpg)></div>
+<span class=slide-title>Ice</span>
+</div>
+</div>
+<div class=slideshow-pagination></div>
+<div class=slideshow-navigation>
+<div class="slideshow-navigation-button prev"><span class="fas fa-chevron-left"></span></div>
+<div class="slideshow-navigation-button next"><span class="fas fa-chevron-right"></span></div>
+</div>
+</div>
+</section>
+<script>class Slideshow{constructor(el){this.DOM={el:el};this.config={slideshow:{delay:3000,pagination:{duration:3,}}};this.init();}
+init(){var self=this;this.DOM.slideTitle=this.DOM.el.querySelectorAll('.slide-title');this.DOM.slideTitle.forEach((slideTitle)=>{charming(slideTitle);});this.slideshow=new Swiper(this.DOM.el,{loop:true,autoplay:{delay:this.config.slideshow.delay,disableOnInteraction:false,},speed:500,preloadImages:true,updateOnImagesReady:true,pagination:{el:'.slideshow-pagination',clickable:true,bulletClass:'slideshow-pagination-item',bulletActiveClass:'active',clickableClass:'slideshow-pagination-clickable',modifierClass:'slideshow-pagination-',renderBullet:function(index,className){var slideIndex=index,number=(index<=8)?'0'+(slideIndex+1):(slideIndex+1);var paginationItem='<span class="slideshow-pagination-item">';paginationItem+='<span class="pagination-number">'+number+'</span>';paginationItem=(index<=8)?paginationItem+'<span class="pagination-separator"><span class="pagination-separator-loader"></span></span>':paginationItem;paginationItem+='</span>';return paginationItem;},},navigation:{nextEl:'.slideshow-navigation-button.next',prevEl:'.slideshow-navigation-button.prev',},scrollbar:{el:'.swiper-scrollbar',},on:{init:function(){self.animate('next');},}});this.initEvents();}
+initEvents(){this.slideshow.on('paginationUpdate',(swiper,paginationEl)=>this.animatePagination(swiper,paginationEl));this.slideshow.on('slideNextTransitionStart',()=>this.animate('next'));this.slideshow.on('slidePrevTransitionStart',()=>this.animate('prev'));}
+animate(direction='next'){this.DOM.activeSlide=this.DOM.el.querySelector('.swiper-slide-active'),this.DOM.activeSlideImg=this.DOM.activeSlide.querySelector('.slide-image'),this.DOM.activeSlideTitle=this.DOM.activeSlide.querySelector('.slide-title'),this.DOM.activeSlideTitleLetters=this.DOM.activeSlideTitle.querySelectorAll('span');this.DOM.activeSlideTitleLetters=direction==="next"?this.DOM.activeSlideTitleLetters:[].slice.call(this.DOM.activeSlideTitleLetters).reverse();this.DOM.oldSlide=direction==="next"?this.DOM.el.querySelector('.swiper-slide-prev'):this.DOM.el.querySelector('.swiper-slide-next');if(this.DOM.oldSlide){this.DOM.oldSlideTitle=this.DOM.oldSlide.querySelector('.slide-title'),this.DOM.oldSlideTitleLetters=this.DOM.oldSlideTitle.querySelectorAll('span');this.DOM.oldSlideTitleLetters.forEach((letter,pos)=>{TweenMax.to(letter,.3,{ease:Quart.easeIn,delay:(this.DOM.oldSlideTitleLetters.length-pos-1)*.04,y:'50%',opacity:0});});}
+this.DOM.activeSlideTitleLetters.forEach((letter,pos)=>{TweenMax.to(letter,.6,{ease:Back.easeOut,delay:pos*.05,startAt:{y:'50%',opacity:0},y:'0%',opacity:1});});TweenMax.to(this.DOM.activeSlideImg,1.5,{ease:Expo.easeOut,startAt:{x:direction==='next'?200:-200},x:0,});}
+animatePagination(swiper,paginationEl){this.DOM.paginationItemsLoader=paginationEl.querySelectorAll('.pagination-separator-loader');this.DOM.activePaginationItem=paginationEl.querySelector('.slideshow-pagination-item.active');this.DOM.activePaginationItemLoader=this.DOM.activePaginationItem.querySelector('.pagination-separator-loader');console.log(swiper.pagination);TweenMax.set(this.DOM.paginationItemsLoader,{scaleX:0});TweenMax.to(this.DOM.activePaginationItemLoader,this.config.slideshow.pagination.duration,{startAt:{scaleX:0},scaleX:1,});}}
+const slideshow=new Slideshow(document.querySelector('.slideshow'));</script>
+<div class=container>
+<div class="pt-5 text-white">
+<div class="py-3 mx-0">
+<h3>SOIL PROFILE</h3>
+<p class=lead>After the formation of the planets, all were subjected to the so-called "Late Heavy Bombardment." About 60% of the surface of Mars shows a record of impacts from that era, whereas much of the remaining surface is probably underlain by immense impact basins caused by those events. There is evidence of an enormous impact basin in the Northern Hemisphere of Mars, spanning 10,600 by 8,500 kilometres (6,600 by 5,300 mi), or roughly four times the size of the Moon's South Pole â€“ Aitken basin, the largest impact basin yet discovered. This theory suggests that Mars was struck by a Pluto-sized body about four billion years ago. The event, thought to be the cause of the Martian hemispheric dichotomy, created the smooth Borealis basin that covers 40% of the planet.</p>
+</div>
+</div>
+</div>
+<div class=container>
+<div class="pt-5 text-white">
+<div class=row>
+<div class=col-md-6>
+<div class="ml-0 text-center"><img class="img-soil"src=images/mars_soil.png></div>
+</div>
+<div class=col-md-6>
+<p class=lead>The Phoenix lander returned data showing Martian soil to be slightly alkaline and containing elements such as magnesium, sodium, potassium and chlorine. These nutrients are found in soils on Earth, and they are necessary for growth of plants. Experiments performed by the lander showed that the Martian soil has a basic pH of 7.7, and contains 0.6% of the salt perchlorate. This is a very high concentration and makes the Martian soil toxic (see also Martian soil toxicity).</p>
+<p class=lead>Streaks are common across Mars and new ones appear frequently on steep slopes of craters, troughs, and valleys. The streaks are dark at first and get lighter with age. The streaks can start in a tiny area, then spread out for hundreds of metres. They have been seen to follow the edges of boulders and other obstacles in their path. The commonly accepted theories include that they are dark underlying layers of soil revealed after avalanches of bright dust or dust devils. Several other explanations have been put forward, including those that involve water or even the growth of organisms.</p>
+</div>
+</div>
+</div>
+</div>
+<div class=container>
+<div class="pt-5 text-white">
+<div class="py-3 mx-0">
+<h3>HYDROLOGY</h3>
+<p class=lead>Liquid water cannot exist on the surface of Mars due to low atmospheric pressure, which is less than 1% that of Earth's, except at the lowest elevations for short periods. The two polar ice caps appear to be made largely of water. The volume of water ice in the south polar ice cap, if melted, would be sufficient to cover the entire planetary surface to a depth of 11 metres (36 ft). A permafrost mantle stretches from the pole to latitudes of about 60Â°. Large quantities of ice are thought to be trapped within the thick cryosphere of Mars. Radar data from Mars Express and the Mars Reconnaissance Orbiter (MRO) show large quantities of ice at both poles (July 2005) and at middle latitudes (November 2008). The Phoenix lander directly sampled water ice in shallow Martian soil on 31 July 2008.</p>
+<p class=lead>â€‹In 2005, radar data revealed the presence of large quantities of water ice at the poles and at mid-latitudes. The Mars rover Spirit sampled chemical compounds containing water molecules in March 2007. The Phoenix lander directly sampled water ice in shallow Martian soil on 31 July 2008.</p>
+</div>
+<div class=row>
+<div class=col-md-6>
+<p class=lead>In March 2015, scientists stated that such an ocean might have been the size of Earth's Arctic Ocean. This finding was derived from the ratio of water to deuterium in the modern Martian atmosphere compared to that ratio on Earth. The amount of Martian deuterium is eight times the amount that exists on Earth, suggesting that ancient Mars had significantly higher levels of water.</p>
+<p class=lead>Results from the Curiosity rover had previously found a high ratio of deuterium in Gale Crater, though not significantly high enough to suggest the former presence of an ocean. Other scientists caution that these results have not been confirmed, and point out that Martian climate models have not yet shown that the planet was warm enough in the past to support bodies of liquid water.</p>
+</div>
+<div class=col-md-6>
+<div class="ml-0 text-center"><img class="img-water"src=images/mars_water.jpg></div>
+</div>
+</div>
+</div>
+</div>
+<div class=container>
+<div class=row>
+<div class=col>
+<div class="weather-card one">
+<div class=top>
+<div class=wrapper>
+<div class=mynav>
+<a href=javascript:><span class="lnr lnr-chevron-left"></span></a>
+<a href=javascript:><span class="lnr lnr-cog"></span></a>
+</div>
+<h1 class=heading>Average Temperature</h1>
+<h3 class=location>Planet Earth</h3>
+<p class=temp>
+<span class=temp-value>14.5</span>
+<span class=deg>0</span>
+<a href=javascript:><span class=temp-type>C</span></a>
+</p>
+</div>
+</div>
+<div class=bottom>
+<div class=wrapper>
+<ul class=forecast>
+<a href=javascript:><span class="lnr lnr-chevron-up go-up"></span></a>
+<li class=active>
+<span class=date>Radius of Earth : </span>
+<span class="lnr lnr-sun condition">
+<span class=temp>6371 <span class=temp-type>KM</span></span>
+</span>
+</li>
+<li>
+<span class=date>Mass of Earth : </span>
+<span class="lnr lnr-cloud condition">
+<span class=temp>5.97 x 10^24 <span class=temp-type>KG</span></span>
+</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class=col>
+<div class="weather-card rain">
+<div class=top>
+<div class=wrapper>
+<div class=mynav>
+<a href=javascript:><span class="lnr lnr-chevron-left"></span></a>
+<a href=javascript:><span class="lnr lnr-cog"></span></a>
+</div>
+<h1 class=heading>Average Temperature</h1>
+<h3 class=location>Planet Mars</h3>
+<p class=temp>
+<span class=temp-value>-55</span>
+<span class=deg>0</span>
+<a href=javascript:><span class=temp-type>C</span></a>
+</p>
+</div>
+</div>
+<div class=bottom>
+<div class=wrapper>
+<ul class=forecast>
+<a href=javascript:><span class="lnr lnr-chevron-up go-up"></span></a>
+<li class=active>
+<span class=date>Radius of Mars : </span>
+<span class="lnr lnr-sun condition">
+<span class=temp>3396 <span class=temp-type>KM</span></span>
+</span>
+</li>
+<li>
+<span class=date>Mass of Mars : </span>
+<span class="lnr lnr-cloud condition">
+<span class=temp>6.4185 x 10^23 <span class=temp-type>KG</span></span>
+</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+<footer class="container-fluid bg-grey py-5 mt-5">
+<div class=container>
+<div class=row>
+<div class=col-md-6>
+<div class=row>
+<div class=col-md-6>
+<div class=logo-part>
+<img src=images/logo.png class="w-50 logo-footer">
+<h2>Contact</h2>
+<p style=font-size:14px;letter-spacing:1px;word-spacing:1px;font-style:italic>007 Somewhere in The World 1911-2511</p>
+</div>
+</div>
+<div class="col-md-6 px-4 mt-4">
+<h6> Information</h6>
+<p style=letter-spacing:1px;word-spacing:1px;font-size:12px>A team of space geeks trying to share their passion through Celestials.</p>
+<a href=subscribe.html class=btn-footer style=color:white> Subscribe </a><br>
+<a href=feedback.html class=btn-footer style=color:white> Feedback </a>
+</div>
+</div>
+</div>
+<div class="col-md-6 mt-4">
+<div class=row>
+<div class="col-md-6 px-4">
+<h6> Destinations</h6>
+<div class=row>
+<div class=col-md-6>
+<ul>
+<li> <a href=index.html> Home</a> </li>
+<li> <a href=missions.html> Missions</a> </li>
+<li> <a href=moons.html> Moons</a> </li>
+<li> <a href=facts.html> Facts</a> </li>
+<li> <a href=mars-sky.html> Mars in Sky</a> </li>
+</ul>
+</div>
+<div class=col-md-6>
+<h6> Legal</h6>
+<ul>
+<li> <a href=terms-of-use.html>Terms of use</a> </li>
+</ul>
+</div>
+</div>
+</div>
+<div class=col-md-6>
+<h6> Find Us !</h6>
+<div class=social>
+<a href=#><i class="fab fa-facebook-f" aria-hidden=true></i></a>
+<a href=#><i class="fab fa-instagram" aria-hidden=true></i></a>
+<a href=#><i class="fab fa-linkedin-in"aria-hidden=true></i></a>
+<a href=#><i class="fab fa-twitter" aria-hidden=true></i></a>
+</div>
+<div class="p-1 rounded border mt-4">
+<div class=input-group>
+<input type=email placeholder=search aria-describedby=button-addon1 class="form-control text-muted border-0 shadow-0">
+<div class=input-group-append>
+<button id=button-addon1 type=button class="go-btn btn">GO</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=col-md-12>
+<div class=legal>
+<p>&copy; 2020 Celestials. All rights reserved.</p>
+<div class=legal__links>
+<span style=font-size:14px> Made with <span class=heart>♥</span> By A & K</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</html>

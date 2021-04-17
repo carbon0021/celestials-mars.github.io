@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv=content-type content="text/html;charset=UTF-8"/>
+<head>
+<title>MARS:IN THE SKY</title>
+<meta name=viewport content="width=device-width, height=device-height, initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+<link href='https://fonts.googleapis.com/css?family=Orbitron' rel=stylesheet>
+<script src=https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js></script>
+<script src=https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js></script>
+<link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css>
+<link rel=stylesheet href=https://use.fontawesome.com/releases/v5.0.7/css/all.css>
+</head>
+<style type=text/css>body{word-spacing:normal;letter-spacing:0;background-color:black!important;font-family:Times New Roman;color:white}header{background-image:url("images/mars-sky-header.jpg");margin-bottom:70px;object-fit:contain;background-repeat:no-repeat;background-size:cover;background-position:top;width:100%;height:600px}[data-target="#mainMenu"]{position:relative;z-index:999}#mainMenu li>a{font-size:12px;letter-spacing:1px;color:#fff;font-weight:400;position:relative;z-index:1;text-decoration:none;top:40px;left:10px}@media(max-width:991px){#mainMenu li>a{position:relative;left:25px}}.main-header.fixed-nav #mainMenu li>a{color:#fff;text-decoration:none}#mainMenu li:not(:last-of-type){margin-right:30px}#mainMenu li>a::before{position:absolute;content:"";width:calc(100% - 1px);height:1px;background:#fff;bottom:-6px;left:0;-webkit-transform:scale(0,1);-ms-transform:scale(0,1);transform:scale(0,1);-webkit-transform-origin:right center;-ms-transform-origin:right center;transform-origin:right center;z-index:-1;-webkit-transition:transform .5s ease;transition:transform .5s ease}#mainMenu li>a:hover::before,#mainMenu li>a.active::before{-webkit-transform:scale(1,1);-ms-transform:scale(1,1);transform:scale(1,1);-webkit-transform-origin:left center;-ms-transform-origin:left center;transform-origin:left center}.main-header.fixed-nav #mainMenu li>a::before{background:#000}.main-header{position:relative;top:0;left:0;z-index:99;width:100%;-webkit-transition:all .4s ease;transition:all .4s ease}.main-header.fixed-nav{top:0;background:#fff;-webkit-box-shadow:0 8px 12px -8px rgba(0,0,0,0.09);box-shadow:0 8px 12px -8px rgba(0,0,0,0.09);-webkit-transition:all .4s ease;transition:all .4s ease}.main-header.fixed-nav .navbar-brand>img:last-of-type{display:block}.main-header.fixed-nav .navbar-brand>img:first-of-type{display:none}.navbar-brand{color:#fff}.main-header .navbar-brand img{position:relative;left:0;top:28px;max-width:180px}@media(max-width:380px){.main-header .navbar-brand img{position:relative;left:0;top:0}}@media(max-width:991px){.collapse.in{display:block!important;padding:0;clear:both}.navbar-toggler{margin:0;padding:0;width:40px;height:40px;position:absolute;top:25px;right:0;border:0;border-radius:0;outline:none!important}.main-header .navbar{float:none;width:100%;padding-left:0;padding-right:0;text-align:center}.main-header .navbar-nav{margin-top:70px}.main-header .navbar-nav li .nav-link{text-align:center;padding:20px 15px;border-radius:0}.main-header .navbar-toggler .icon-bar{background-color:#fff;margin:0 auto 6px;border-radius:0;width:30px;height:3px;position:absolute;right:0;-webkit-transition:all .2s ease;transition:all .2s ease}.main-header .navbar .navbar-toggler .icon-bar:first-child{margin-top:3px}.main-header .navbar-toggler .icon-bar-1{width:10px;top:0}.main-header .navbar-toggler .icon-bar-2{width:16px;top:12px}.main-header .navbar-toggler .icon-bar-3{width:20px;top:21px}.main-header .current .icon-bar{margin-bottom:5px;border-radius:0;display:block}.main-header .current .icon-bar-1{width:18px}.main-header .current .icon-bar-2{width:30px}.main-header .current .icon-bar-3{width:10px}.main-header .navbar-toggler:hover .icon-bar{background-color:#fff}.main-header .navbar-toggler:focus .icon-bar{background-color:#fff}}.btn-change{background:-webkit-linear-gradient(to right,#243B55,#141E30);background:linear-gradient(to right,#243B55,#141E30);box-shadow:0 0 1px #ccc;-webkit-transition:all .5s ease-in-out;border:3px solid #eee;color:#fff}.btn-change:hover{-webkit-transform:scale(1.1);background:#31708f;color:white}@media(max-width:380px){.btn{font-size:10px}}.dynamic-content{display:none}.img-margin{margin-top:70%}@media(max-width:380px){.img-margin{margin-top:2%}}.img-margin1{margin-top:19%}@media(max-width:380px){.img-margin1{margin-top:2%}}.img-margin2{margin-top:12%}@media(max-width:380px){.img-margin2{margin-top:2%}}.bg-grey{background:linear-gradient(to bottom,#232526,#414345)}.logo-footer{margin-bottom:20px}footer{color:grey;font-family:'Times',sans-serif}footer p,a{font-size:14px}footer h6{margin-bottom:40px;position:relative;color:white}footer h6:after{position:absolute;content:"";background:grey;width:12%;height:1px;left:0;bottom:-20px}.btn-footer{display:flex;align-items:center;justify-content:center;height:32px;max-width:max-content;background-color:transparent;border:1px solid white;color:white;border-radius:43px;font-size:13px;padding:7px 30px;line-height:47px}.btn-footer:hover{text-decoration:none!important;background-color:#2c3e50}.go-btn{text-decoration:none;color:white!important}.go-btn:hover{text-decoration:none;background-color:black}.form-control::placeholder{font-size:.95rem;color:#d8d5d4;font-style:italic}.form-control.shadow-0:focus{box-shadow:none}.social .fab{font-size:22px;padding:10px 15px;transition:1s}.fab:hover{transform:rotateY(360deg)}.fa-facebook-f{color:#4267b2}.fa-instagram{color:#ff0084}.fa-linkedin-in{color:#2867b2}.fa-twitter{color:#1da1f2}footer ul li{list-style:none;display:block}footer ul{padding-left:0}footer ul li a{text-decoration:none;color:grey;text-decoration:none}footer ul li a:hover{text-decoration:none;color:#f5f5f5!important}.logo-part{border-right:1px solid grey;height:100%}.legal{display:flex;flex-wrap:wrap;color:#999}.legal__links{display:flex;align-items:center}.heart{color:red}.legal .legal__links{margin-left:auto}</style>
+<header class=main-header>
+<div class=container>
+<nav class="navbar navbar-expand-lg main-nav px-0">
+<a class=navbar-brand href=/mojo><img src=images/logo.png alt=logo></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#mainMenu aria-controls=mainMenu aria-expanded=false aria-label="Toggle navigation">
+<span class="icon-bar icon-bar-1"></span>
+<span class="icon-bar icon-bar-2"></span>
+<span class="icon-bar icon-bar-3"></span>
+</button>
+<div class="collapse navbar-collapse" id=mainMenu>
+<ul class="navbar-nav ml-auto text-uppercase f1">
+<li>
+<a href="mars-sky.html"class="active active-first">mars in sky</a>
+</li>
+<li>
+<a href=index.html>home</a>
+</li>
+<li>
+<a href=missions.html>missions</a>
+</li>
+<li>
+<a href=geology.html>geology</a>
+</li>
+<li>
+<a href=moons.html>moons</a>
+</li>
+<li>
+<a href=facts.html>facts</a>
+</li>
+<li>
+<a href=#contact></a>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+</header>
+<body>
+<div class=container>
+<div class="row mb-5">
+<div class="col mb-4">
+<a href="?dc=default-content"><button class="col btn btn-change"onclick=getParameterByName()>Opposition</button></a>
+</div>
+<div class="col mb-4">
+<a href="?dc=eclipse"><button class="col btn btn-change"onclick=getParameterByName()>Total Lunar Eclipse</button></a>
+</div>
+<div class="col mb-4">
+<a href="?dc=conjunction"><button class="col btn btn-change"onclick=getParameterByName()>Solar conjunction</button></a>
+</div>
+<div class="col mb-4">
+<a href="?dc=marsretro"><button class="col btn btn-change"onclick=getParameterByName()>Mars Retrograde</button></a>
+</div>
+<div class="col mb-4">
+<a href="?dc=approach"><button class="col btn btn-change"onclick=getParameterByName()>Mars Close Approach</button></a>
+</div>
+</div>
+</div>
+<script type=text/javascript>function getParameterByName(b,a){if(!a){a=window.location.href}b=b.replace(/[\[\]]/g,"\\$&");var d=new RegExp("[?&]"+b+"(=([^&#]*)|&|#|$)"),c=d.exec(a);if(!c){return null}if(!c[2]){return""}return decodeURIComponent(c[2].replace(/\+/g," "))}var dynamicContent=getParameterByName("dc");$(document).ready(function(){if(dynamicContent=="marsretro"){$("#marsretro").show()}else{if(dynamicContent=="eclipse"){$("#eclipse").show()}else{if(dynamicContent=="conjunction"){$("#conjunction").show()}else{if(dynamicContent=="approach"){$("#approach").show()}else{$("#default-content").show()}}}}});</script>
+<div class=container>
+<div id=default-content class=dynamic-content>
+<div class="py-3 mx-0">
+<p class=lead>Like all the planets in our solar system, Earth and Mars orbit the sun. But Earth is closer to the sun, and therefore races along its orbit more quickly. Earth makes two trips around the sun in about the same amount of time that Mars takes to make one trip. So sometimes the two planets are on opposite sides of the sun, very far apart, and other times, Earth catches up with its neighbor and passes relatively close to it.x</p>
+</div>
+<div class=row>
+<div class=col-md-6>
+<h2 style=font-weight:400;font-style:normal class=mb-4>What is Opposition?</h2>
+<p class=lead style=line-height:1.6>During opposition, Mars and the sun are on directly opposite sides of Earth. From our perspective on our spinning world, Mars rises in the east just as the sun sets in the west. Then, after staying up in the sky the entire night, Mars sets in the west just as the sun rises in the east. Since Mars and the sun appear on opposite sides of the sky, we say that Mars is in "opposition." If Earth and Mars followed perfectly circular orbits, opposition would be as close as the two planets could get.</p>
+<p class=lead style=line-height:1.6>Of course, nothing about motion in space is quite that simple! Our orbits are actually elliptical (oval-shaped), and we travel a little closer to the sun at one end of our orbits than at the other end.</p>
+<p class=lead style=line-height:1.6>The image on the right is taken by Hubble telescope of a Mars portrait near close approach.</p>
+</div>
+<div class=col-md-6>
+<img src="images/opposition-1.jpg"class="img-fluid mb-4 border border-light " alt="Responsive image"style="margin-top: 10px;">
+</div>
+</div>
+<div class="py-3 mx-0">
+<h2 style=font-weight:400;font-style:normal class=mb-4>When Can Opposition Occur?</h2>
+<p class=lead>Mars oppositions happen about every 26 months. Every 15 or 17 years, opposition occurs within a few weeks of Mars' perihelion (the point in its orbit when it is closest to the sun). This year, Mars opposition occurs on Oct. 13, 2020.</p>
+<p class=lead>An opposition can occur anywhere along Mars' orbit. When it happens while the red planet is closest to the sun (called "perihelic opposition"), Mars is particularly close to Earth. If Earth and Mars both had perfectly stable orbits, then each perihelic opposition would bring the two planets as close as they could be. That's almost the way it is.</p>
+</div>
+<div class=row>
+<div class=col-md-6 style=margin-top:5%>
+<img src="images/opposition-2.gif"class="img-fluid mb-4 border border-light ">
+<h6>An illustration of the relative 'tilt' in the orbits of Earth and Mars</h6>
+</div>
+<div class=col-md-6>
+<p class=lead style=line-height:1.6>But once again, nature throws in a few complications. Gravitational tugging by the other planets constantly changes the shape of our orbits a little bit. Giant Jupiter especially influences the orbit of Mars. Also, the orbits of Earth and Mars don't lie in quite the same plane. The paths the planets take around the sun are slightly tilted with respect to each other.</p>
+<p class=lead style=line-height:1.6>So, with all these added factors, some perihelic oppositions bring us closer together than others. The 2003 opposition was the closest approach in almost 60,000 years!</p>
+<p class=lead style=line-height:1.6>Mars' orbit is more elliptical than Earth's, so the difference between perihelion and aphelion is greater. Over the past centuries, Mars' orbit has been getting more and more elongated, carrying the planet even nearer to the sun at perihelion and even farther away at aphelion. So future perihelic oppositions will bring Earth and Mars even closer. But we'll still have bragging rights for awhile. Our 2003 record will stand until August 28, 2287!</p>
+</div>
+</div>
+</div>
+<div id=eclipse class=dynamic-content>
+<div class="row mt-5">
+<div class=col-md-6>
+<h1 class="mb-4 mt-5">Blood Red Moon: Total Lunar Eclipse</h1>
+<h2 style="font-weight:400;font-style:normal"class="mb-4 mt-5">Why does the Moon look orange or red like Mars during a total lunar eclipse?</h2>
+<p class=lead style=line-height:1.6>Mars has a reddish color because of the iron oxides (rust) on its surface. However, the reason the Moon looks red during a total lunar eclipse is quite different.</p>
+<p class=lead style=line-height:1.6>To understand why, let's understand what a lunar eclipse is all about. For any lunar eclipse, we need a full moon.</p>
+<p class=lead style=line-height:1.6>During a total lunar eclipse, the Sun, Earth, and Earth's moon line up in space.</p>
+<p class=lead style=line-height:1.6>The Sun shines on Earth, creating a shadow (umbra) that is just large enough to cover the Moon. Some indirect sunlight still gets to the Moon, however, because it is bent by our atmosphere, creating two areas of partial shadow, partial illumination (penumbra).</p>
+<p class=lead style=line-height:1.6>In its orbit around Earth, the full Moon gradually darkens bit by bit as it enters and travels through Earth's partial shadow. When the Moon is fully in the shadow of Earth (its umbra), the eclipse is total. At this time, something special happens!</p>
+<p class=lead style=line-height:1.6>The Moon turns golden, copper, or even "blood red"!</p>
+</div>
+<div class=col-md-6>
+<img src="images/eclipse-1.jpg"class="img-fluid mb-4 border border-light img-margin " alt="Responsive image">
+</div>
+</div>
+<div class=row>
+<div class=col-md-6 style=margin-top:5%>
+<img src="images/eclipse-2.jpg"class="img-fluid mb-4 img-margin1 border border-light ">
+</div>
+<div class=col-md-6>
+<h2 style="font-weight:400;font-style:normal"class="mb-4 mt-5">Why does the Moon turn red - sort of like Mars?</h2>
+<p class=lead style=line-height:1.6>You'd think that because Earth's shadow is large enough to cover the moon during a total lunar eclipse, the Moon would go completely dark.</p>
+<p class=lead style=line-height:1.6>However, because Earth's atmosphere extends out beyond Earth, sunlight passes through it.</p>
+<p class=lead style=line-height:1.6>As mentioned, some of this light is bent back and projects onto the moon. But, why is this bent light gold, orange, or red in color?</p>
+<p class=lead style=line-height:1.6>Sunlight is an energy that travels in waves. A wavelength is the distance between the tops of the waves. Sunlight has a range of</p>
+</div>
+</div>
+<div class=mx-0>
+<p class=lead style=line-height:1.6>wavelengths, some of which are visible colors. Each color has a different wavelength. Violet has the shortest wavelength and red has the longest. When all of the waves are together, such as when they travel in space, the light is white. When white light passes through an atmosphere, it can be broken up into visible colors and other wavelengths.</p>
+<p class=lead style=line-height:1.6>During a total lunar eclipse, white sunlight hitting the atmosphere on the sides of the Earth gets absorbed and then radiated out (scattered). Blue-colored light is most affected. That is, the atmosphere filters out (scatters away) most of the blue-colored light. What's left over is the orange- and red-colored light. This red-colored light passes through our atmosphere without getting absorbed and scattered, before the atmosphere bends it (refracts it) back out, projecting indirect, reddish light onto the Moon. The reddish light projected on the Moon is much dimmer than the full white sunlight the Moon typically reflects back to us. That's because the light is indirect and because the red-colored wavelengths are only a part of what makes up the white light from the sun that the Moon usually receives.</p>
+<p class=lead style=line-height:1.6>How gold, orange, or red the Moon appears during a total lunar eclipse depends on how much dust, water, and other particles are in Earth's atmosphere, as well as factors such as temperature and humidity.</p>
+</div>
+<div class="py-5 mx-0">
+<h2 style="font-weight:400;font-style:normal"class=mb-4>Why does the Moon turn red - sort of like Mars?</h2>
+<p class=lead style=line-height:1.6>If you were standing on the Moon during a total lunar eclipse, you would see a ring of orange or red light around the Earth where the atmosphere extends into space around our home planet. In essence, you would be watching all of the sunrises and sunsets on Earth at the same time! The dark Earth in front of you would be the parts of the Earth where it is night. On the other side of the Earth, where the sunlight reaches the planet face on, it would be daytime (with blue skies because of the way our atmosphere scatters different wavelengths of light).</p>
+<p class=lead style=line-height:1.6>The rosy ring around Earth would essentially be places on Earth glanced by sunlight and transitioning from day to night (dusk) on one side, and night to day (dawn) on the other, as the Earth rotates on its axis.</p>
+<p class=lead style=line-height:1.6>The reason why the Moon turns red during a total lunar eclipse is related to why we have such beautiful pink, orange, and red sunrises and sunsets to enjoy. When we see a sunrise or sunset from our perspective on Earth, sunlight is coming in at a low angle. It has to travel through a lot of atmosphere, scattering more and more blue-colored light as it goes ... until what is left when the light reaches us at these day/night transition times is the more reddish wavelengths that get through.</p>
+</div>
+</div>
+<div id=conjunction class=dynamic-content>
+<div class=row>
+<div class=col-md-6>
+<h1 class="mt-5 mb-4">SOLAR CONJUNCTION</h1>
+<p class=lead style=line-height:1.6>Every day for over two decades, the U.S. has had a presence at Mars, using spacecraft to understand this extreme world and its potential as a past or present habitat for life.</p>
+<p class=lead style=line-height:1.6>During that time, all spacecraft have become virtually incommunicado for about two weeks every two years. The reason is solar conjunction.</p>
+<p class=lead style=line-height:1.6>Solar conjunction is the period when Earth and Mars, in their eternal march around the Sun, are obscured from each other by the fiery orb of the Sun itself. Like dancers on either side of a huge bonfire, the two planets are temporarily invisible to each other.</p>
+</div>
+<div class="col-md-6 img-margin2">
+<img src="images/conjunction-1.jpg"class="img-fluid border  border-light " alt="Responsive image"style="margin-top: 10px;">
+</div>
+</div>
+<div class="py-3 mx-0">
+<p class=lead>Mission controllers at NASA's Jet Propulsion Laboratory respond in a variety of ways. They turn off some instruments. They collect data from others and store it. In some cases, they continue sending data to Earth, knowing that some data will be lost. Whether they get a break from everyday operations depends on what mission they're supporting.</p>
+<p class=lead>No one attempts to send new instructions to Mars during solar conjunction. It's impossible to predict what information might be lost due to interference from charged particles from the Sun, and that lost information could potentially endanger the spacecraft. Instead, prior to solar conjunction, engineers send two weeks' worth of instructions and wait.</p>
+<p class=lead>While that may seem risky, automatic pilot has come a long way. Engineers have become skilled at letting spacecraft be on their own. Like parents who raise youngsters to be responsible and let them go on a short vacation with their friends, they've done all they can to ensure the voyagers will be healthy and safe. Before solar conjunction, the mission team sends up any necessary commands. Many then consider it an opportune time to take a few, well-deserved vacation days.</p>
+</div>
+</div>
+<div id=marsretro class=dynamic-content>
+<h1 style=margin-top:10%;margin-bottom:4%>Mars Retrograde</h1>
+<div class="py-3 mx-5 px-5">
+<img src="images/retrograde.jpg"class="img-fluid border  border-light " alt="Responsive image"style="margin-top: 10px;">
+</div>
+<div class="py-3 mx-0 mt-5">
+<p class=lead>If you were to look up in the eastern sky at the same time each night and note where Mars appears to be compared to the constellations of stars, you would find the planet a little farther east with each viewing. That is, Mars appears to move from west to east from one night to the next.</p>
+<p class=lead>Every two years or so, there are a couple of months when Mars' position from night to night seems to change direction and move east to west. This strange behavior was very puzzling to early skywatchers. Did the planet really stop, back up, change its mind, and then continue to move forward? Did it have some weird, mystical meaning?</p>
+<p class=lead>Today we know what's going on. It's an illusion, caused by the ways that Earth and Mars orbit the sun.</p>
+</div>
+<div class=row>
+<div class=col-md-6>
+<img src="images/opposition-2.gif"class="img-fluid mt-5 border border-light ">
+</div>
+<div class=col-md-6>
+<h2 style="font-weight:400;font-style:normal"class="mb-4 mt-5">Mars Retrograde Happens Every Two Years</h2>
+<p class=lead style=line-height:1.6>The two planets are like race cars on an oval track. Earth has the inside lane and moves faster than Mars -- so much faster, in fact, that it makes two laps around the course in about as much time as it takes Mars to go around once.</p>
+<p class=lead style=line-height:1.6>About every 26 months, Earth comes up from behind and overtakes Mars. While we're passing by the red planet this year, it will look to us as though Mars is moving up and down. Then, as we move farther along our curved orbit and see the planet from a different angle, the illusion will disappear and we will once again see Mars move in a straight line.</p>
+</div>
+</div>
+<div class=mx-0>
+<p class=lead style=line-height:1.6>This apparent erratic movement is called "retrograde motion." The illusion also happens with Jupiter and the other planets that orbit farther from the sun.</p>
+<p class=lead style=line-height:1.6>Just to make things a little more odd, the orbits that Earth and Mars follow don't quite lie in the same plane. It's as if the two planets were on separate tracks that are a little tilted with respect to each other. This causes another strange illusion.</p>
+<p class=lead style=line-height:1.6>Suppose you were to draw a dot on a sky map each night to show where Mars appears as it moves forward, goes through retrograde, and then resumes its forward motion. Connect the dots, and you'll draw either a loop or an open zigzag. The pattern depends on where Earth and Mars happen to be in their tilted racetrack orbits.</p>
+</div>
+<div class=row>
+<div class=col-md-6>
+<img src="images/retrograde-1.jpg"class="img-fluid mt-5 border border-light ">
+<h6 class="mt-3 text-center">These images show the apparent pattern made by the planet Mars while in 'retrograde motion' during 2014(left) and 2016(right) over Pasadena. The middle of the yellow line bends in a loop, giving the illusion that Mars' movement is erratic.</h6>
+</div>
+<div class=col-md-6>
+<img src="images/retrograde-2.jpg"class="img-fluid mt-5 border border-light ">
+<h6 class=mt-3>These apparent patterns caused by retrograde motion do not occur each evening. The patterns would appear if you charted Mars' position in our night sky over several months' time (during retrograde). Image Credit: NASA/JPL-Caltech</h6>
+</div>
+</div>
+</div>
+<div id=approach class=dynamic-content>
+<div class=py-3>
+<img src="images/approach-1.jpg"class="img-fluid border  border-light " alt="Responsive image"style="margin-top: 10px;">
+</div>
+<h1 style=margin-top:5%;margin-bottom:4%>Mars Close Approach to Earth</h1>
+<h2 style=font-weight:400;font-style:normal class=mb-4>See Mars in the Night Sky!</h2>
+<div class=row>
+<div class=col-md-6>
+<p class=lead style=line-height:1.6>Simply go outside and look up and, depending on your local weather and lighting conditions, you should be able to see Mars. Mars Close Approach was Oct. 6, 2020</p>
+<p class=lead style=line-height:1.6>That is the point in Mars' orbit when it comes closest to Earth, this time at about 38.6 million miles (62.07 million kilometers) from our planet. Mars was visible for much of the night in the southern sky and at its highest point at about midnight.</p>
+<p class=lead style=line-height:1.6>Mars will still be visible through October, but will become fainter as Mars and Earth travel farther away from each other in their orbits around the Sun.</p>
+<p class=lead style=line-height:1.6>This time of excellent Mars viewing coincides with opposition, when Mars is directly on the opposite side of Earth from the Sun. This lineup happens about every two years. During this opposition, Mars and Earth are closest to each other in their orbits. That means Mars is at its brightest, so go out and take a look!</p>
+</div>
+<div class="col-md-6"style="margin-top: 5%;">
+<img src="images/approach-2.jpg"class="img-fluid mt-5 border border-light mb-4 ">
+<h6 class=text-center>Diagram shows the configuration of Earth, Mars, and the Sun during opposition.</h6>
+</div>
+</div>
+<div class="py-3 mx-0 mt-5">
+<h2 style=font-weight:400;font-style:normal class=mb-4>What is Mars Close Approach?</h2>
+<p class=lead>Close Approach is when Mars and Earth come nearest to each other in their orbits around the sun. Close is a relative term. The minimum distance from Earth to Mars is about 33.9 million miles (54.6 million kilometers). However, that doesn't happen very often.</p>
+<p class=lead>If Earth and Mars had perfectly circular orbits, their minimum distance would always be the same. However, they have elliptical (egg-shaped) paths.</p>
+<p class=lead>In addition, gravitational tugging by planets constantly changes the shape of their orbits a little bit. Giant Jupiter especially influences the orbit of Mars.</p>
+<p class=lead>The orbits of Mars and Earth are also slightly tilted with respect to each other.All of these factors mean that not all close encounters are equal. In 2003, Mars made its closest approach to Earth in nearly 60,000 years! It won't be that close again until the year 2287.</p>
+<p class=lead>When Mars and Earth are close to each other, Mars appears very bright in our sky. It also makes it easier to see with telescopes or the naked eye. The Red Planet comes close enough for exceptional viewing only once or twice every 15 or 17 years.</p>
+</div>
+<div class=row>
+<div class=col-md-6>
+<h2 style=font-weight:400;font-style:normal class=mb-4>When does Mars Close Approach Occur?</h2>
+<p class=lead style=line-height:1.6>Mars Close Approach happens about every 26 months. It is closely related to Mars Opposition and Mars Retrograde.</p>
+<p class=lead style=line-height:1.6>Since Mars and Earth are at their closest, it's generally the best time to go to Mars. Many Mars missions have taken advantage of the close distance to visit the red planet. That's why, depending on budgets, you'll often see that Mars missions launch about every two years.</p>
+<h2 style=font-weight:400;font-style:normal class=mb-4>Next Mars Close Approach in 2022</h2>
+<p class=lead style=line-height:1.6>Missed seeing Mars Close Approach in 2020? Not to worry! The next Mars Close Approach is Dec. 8, 2022, when the Red Planet will be only 38.6 million miles (62.07 million kilometers) from Earth. Taking advantage of the short trip-time will be NASAâ€™s next mission to Mars, known as Mars Sample Return, a campaign to bring samples of Mars rocks and soil back to Earth, where they can be studied in detail.</p>
+</div>
+<div class=col-md-6 style=margin-top:5%>
+<img src="images/approach-3.jpg"class="img-fluid mt-5  border border-light mb-4"alt="Responsive image">
+<h6 class="px-0 pr-5">Though Earthlings will be able to get a good look at Mars during close approach, NASA's Curiosity rover and Insight lander on Mars will not be able to see Earth.</h6>
+</div>
+</div>
+</div>
+</div>
+</body>
+<footer class="container-fluid bg-grey py-5 mt-5">
+<div class=container>
+<div class=row>
+<div class=col-md-6>
+<div class=row>
+<div class=col-md-6>
+<div class=logo-part>
+<img src=images/logo.png class="w-50 logo-footer">
+<h2>Contact</h2>
+<p style=font-size:14px;letter-spacing:1px;word-spacing:1px;font-style:italic>007 Somewhere in The World 1911-2511</p>
+</div>
+</div>
+<div class="col-md-6 px-4 mt-4">
+<h6> Information</h6>
+<p style=letter-spacing:1px;word-spacing:1px;font-size:12px>A team of space geeks trying to share their passion through Celestials.</p>
+<a href=subscribe.html class=btn-footer style=color:white> Subscribe </a><br>
+<a href=feedback.html class=btn-footer style=color:white> Feedback </a>
+</div>
+</div>
+</div>
+<div class="col-md-6 mt-4">
+<div class=row>
+<div class="col-md-6 px-4">
+<h6> Destinations</h6>
+<div class=row>
+<div class=col-md-6>
+<ul>
+<li> <a href=index.html> Home</a> </li>
+<li> <a href=geology.html> Geology</a> </li>
+<li> <a href=moons.html> Moons</a> </li>
+<li> <a href=missons.html> Missions</a> </li>
+<li> <a href=facts.html> Facts</a> </li>
+</ul>
+</div>
+<div class=col-md-6>
+<h6> Legal</h6>
+<ul>
+<li> <a href=terms-of-use.html>Terms of use</a> </li>
+</ul>
+</div>
+</div>
+</div>
+<div class=col-md-6>
+<h6> Find Us !</h6>
+<div class=social>
+<a href=#><i class="fab fa-facebook-f" aria-hidden=true></i></a>
+<a href=#><i class="fab fa-instagram" aria-hidden=true></i></a>
+<a href=#><i class="fab fa-linkedin-in"aria-hidden=true></i></a>
+<a href=#><i class="fab fa-twitter" aria-hidden=true></i></a>
+</div>
+<div class="p-1 rounded border mt-4">
+<div class=input-group>
+<input type=email placeholder=search aria-describedby=button-addon1 class="form-control text-muted border-0 shadow-0">
+<div class=input-group-append>
+<button id=button-addon1 type=button class="go-btn btn">GO</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=col-md-12>
+<div class=legal>
+<p>&copy; 2020 Celestials. All rights reserved.</p>
+<div class=legal__links>
+<span style=font-size:14px> Made with <span class=heart>♥</span> By A & K</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</html>
